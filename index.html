@@ -15,14 +15,13 @@
             background: rgb(239,255,255);
             background: linear-gradient(0deg, rgba(239,255,255,1) 0%, rgba(150,232,242,1) 100%);
         }
-        .balloon {
-          display:inline-block;
-          width:120px;
-          height:145px;
-          background:hsl(215,50%,65%);
-          border-radius:80%;
-          position:relative;
-          box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
+        #evil-button {
+            position: absolute;
+            white-space: nowrap;
+            font-size: 2rem;
+            background-color: white;
+            color: black;
+            border: 2px solid #1F51FF;
         }
         .footer{
             position: fixed;
@@ -37,7 +36,7 @@
 </head>
 
 <body>
-    <button id="evil-button"><div class="balloon"></div></button>
+    <button id="evil-button"></button>
     <div class="footer">
         Created by @anirban_dutta 
         Shoutout to "Web Dev Simplified" for this cool project idea :) 
